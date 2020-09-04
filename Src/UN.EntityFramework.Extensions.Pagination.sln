@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UN.EntityFramework.Extensions.Pagination", "UN.EntityFramework.Extensions.Pagination.csproj", "{2D9B33B2-CF40-4575-8F98-9319F9FE65CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UN.EntityFramework.Extensions.Pagination", "UN.EntityFramework.Extensions.Pagination/UN.EntityFramework.Extensions.Pagination.csproj", "{2D9B33B2-CF40-4575-8F98-9319F9FE65CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{0B94B4DF-2F03-4F9D-896B-2C2A67B95126}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

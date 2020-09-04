@@ -1,5 +1,5 @@
 language: csharp
-solution: Src/UN.EntityFramework.Extensions.Pagination.sln
+solution: Src/UN.EntityFramework.Extensions.Pagination/UN.EntityFramework.Extensions.Pagination.sln
 matrix:
   include:
     - os: linux
