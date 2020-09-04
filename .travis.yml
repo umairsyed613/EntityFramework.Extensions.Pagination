@@ -1,12 +1,9 @@
-dist: bionic
-addons:
-  snaps:
-  - name: dotnet-sdk
-    classic: true
-    channel: latest/beta
-sudo: required
 language: csharp
-mono: none
-script:
-  - sudo snap alias dotnet-sdk.dotnet dotnet
-  - dotnet build Src/EntityFramework.Pagination.sln --configuration Release
+solution: Src/Serilog.Sinks.WinForms.sln
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+      dotnet: 2.1.300
+      group: edge
