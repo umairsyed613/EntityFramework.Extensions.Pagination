@@ -20,4 +20,4 @@ jobs:
     - name: Test with dotnet
       run: dotnet test Src/EntityFramework.Pagination.sln
     - name: Pack with dotnet
-      run: dotnet pack Src/EntityFramework.Pagination.csproj .p:Version=${{github.event.release.tag_name}} --output nuget-packages --configuration Release
+      run: dotnet pack Src/EntityFramework.Pagination.csproj /p:Version=${{github.event.release.tag_name}} --output nuget-packages --configuration Release
