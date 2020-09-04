@@ -6,7 +6,7 @@ EntityFramework query extension for getting page data from database for views
 Install the [UN.EntityFramework.Extensions.Pagination](https://www.nuget.org/packages/UN.EntityFramework.Extensions.Pagination/) package from NuGet:
 
 ```powershell
-Install-Package Serilog.Sinks.WinForms
+Install-Package UN.EntityFramework.Extensions.Pagination
 ```
 
 
