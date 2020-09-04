@@ -1,4 +1,4 @@
-﻿namespace EntityFramework.Pagination
+﻿namespace EntityFramework.Extensions.Pagination
 {
     public class PageQuery : IPageQuery
     {
