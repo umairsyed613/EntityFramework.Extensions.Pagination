@@ -20,4 +20,4 @@ jobs:
     - name: Pack Nuget Package
       run: dotnet pack Src/EntityFramework.Pagination.csproj /p:Version=${{github.event.release.tag_name}} --output nuget-published --configuration Release
     - name: Publish Nuget Package
-      run: dotnet nuget push nuget-published/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
+      run: dotnet nuget push ****/nuget-published/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
