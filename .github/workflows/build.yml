@@ -14,10 +14,10 @@ jobs:
     - name: Setup .NET Core and .Net Framework
       uses: microsoft/setup-msbuild@v1.0.1
     - name: Install dependencies
-      run: dotnet restore Src/EntityFramework.Pagination.sln
+      run: dotnet restore Src/EntityFramework.Extensions.Pagination.sln
     - name: Build
-      run: dotnet build Src/EntityFramework.Pagination.sln --configuration Release --no-restore
+      run: dotnet build Src/EntityFramework.Extensions.Pagination.sln --configuration Release --no-restore
     - name: Pack Nuget Package
-      run: dotnet pack Src/EntityFramework.Pagination.csproj /p:Version=${{github.event.release.tag_name}} --output nuget-published --configuration Release
+      run: dotnet pack Src/EntityFramework.Extensions.Pagination.csproj /p:Version=${{github.event.release.tag_name}} --output nuget-published --configuration Release
     - name: Publish Nuget Package
       run: dotnet nuget push ****/nuget-published/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json

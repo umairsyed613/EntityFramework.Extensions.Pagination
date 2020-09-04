@@ -1,5 +1,5 @@
 language: csharp
-solution: Src/Serilog.Sinks.WinForms.sln
+solution: Src/EntityFramework.Extensions.Pagination.sln
 matrix:
   include:
     - os: linux

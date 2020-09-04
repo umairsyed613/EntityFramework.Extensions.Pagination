@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace EntityFramework.Pagination
+namespace EntityFramework.Extensions.Pagination
 {
     public class PagedResult<T>
     {
