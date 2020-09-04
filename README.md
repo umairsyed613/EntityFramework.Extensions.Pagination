@@ -1,6 +1,8 @@
 # UN.EntityFramework.Extensions.Pagination
 EntityFramework query extension for getting page data from database for views
 
+[![NuGet version](https://badge.fury.io/nu/UN.EntityFramework.Extensions.Pagination.png)](https://badge.fury.io/nu/UN.EntityFramework.Extensions.Pagination)
+
 ### Getting started
 
 Install the [UN.EntityFramework.Extensions.Pagination](https://www.nuget.org/packages/UN.EntityFramework.Extensions.Pagination/) package from NuGet:
