@@ -19,5 +19,6 @@ jobs:
       run: dotnet build Src/EntityFramework.Pagination.sln --configuration Release --no-restore
     - name: Pack Nuget Package
       run: dotnet pack Src/EntityFramework.Pagination.csproj /p:Version=${{github.event.release.tag_name}} --output Src/EntityFramework.Pagination/bin/Release --configuration Release
+      working-directory: ./Src/EntityFramework.Pagination
     - name: Publish Nuget Package
-      run: dotnet nuget push Src/EntityFramework.Pagination/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
+      run: dotnet nuget push /bin/Release/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
