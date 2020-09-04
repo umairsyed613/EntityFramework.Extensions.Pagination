@@ -19,3 +19,4 @@ jobs:
       run: dotnet build Src/EntityFramework.Pagination.sln --configuration Release --no-restore
     - name: Pack with dotnet
       run: dotnet pack Src/EntityFramework.Pagination.csproj /p:Version=${{github.event.release.tag_name}} --output nuget-packages --configuration Release
+      working-directory: ./Src
