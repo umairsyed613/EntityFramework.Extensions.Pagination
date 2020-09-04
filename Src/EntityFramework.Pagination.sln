@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFramework.Extensions.Pagination", "EntityFramework.Extensions.Pagination.csproj", "{2D9B33B2-CF40-4575-8F98-9319F9FE65CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Pagination", "EntityFramework.Pagination.csproj", "{2D9B33B2-CF40-4575-8F98-9319F9FE65CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
