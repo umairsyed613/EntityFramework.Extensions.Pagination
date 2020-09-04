@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace EntityFramework.Extensions.Pagination
+namespace UN.EntityFramework.Extensions.Pagination
 {
     public static class IQueryableExtensions
     {
