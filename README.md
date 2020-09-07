@@ -1,7 +1,7 @@
 # UN.EntityFramework.Extensions.Pagination
 EntityFramework query extension for getting page data from database for views
 
-[![NuGet version](https://badge.fury.io/nu/UN.EntityFramework.Extensions.Pagination.png)](https://badge.fury.io/nu/UN.EntityFramework.Extensions.Pagination) ![Build and Publish](https://github.com/umairsyed613/UN.EntityFramework.Extensions.Pagination/workflows/Build%20and%20Publish/badge.svg)
+[![NuGet version](https://badge.fury.io/nu/UN.EntityFramework.Extensions.Pagination.png)](https://badge.fury.io/nu/UN.EntityFramework.Extensions.Pagination) ![Build and Publish](https://github.com/umairsyed613/UN.EntityFramework.Extensions.Pagination/workflows/Build%20and%20Publish/badge.svg) [![Nuget](https://img.shields.io/nuget/dt/UN.EntityFramework.Extensions.Pagination)](https://www.nuget.org/packages/UN.EntityFramework.Extensions.Pagination)
 
 ### Getting started
 
