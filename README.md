@@ -70,3 +70,9 @@ public asyc Task<PagedResult<Person>> GetPersonsByNameAndPageResult(MySearchQuer
 }
 
 ```
+
+### Sample Running App
+
+Find the sample running application [here](https://github.com/umairsyed613/Serilog.Sinks.WinForms/tree/master/Sample/TestApplication/)
+
+![Sample](https://github.com/umairsyed613/Serilog.Sinks.WinForms/blob/master/sample.gif)
