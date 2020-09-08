@@ -11,6 +11,15 @@ Install the [UN.EntityFramework.Extensions.Pagination](https://www.nuget.org/pac
 Install-Package UN.EntityFramework.Extensions.Pagination
 ```
 
+### Information
+
+TakePageResult method is the IQueryable<T> extension method. which adds the skip and take to your IQueryable Query. It can be used with your any generic list or entity framework query.
+
+PagedResult<T> is the generic class which have the 4 paramaters which you can use to return data its really up to you if you would want to use this class.
+
+IPageQuery is a interface which holds all the parameter required for pagination which must be passed in your query.
+
+
 
 ### How it works
 
@@ -27,7 +36,7 @@ public asyc Task<PagedResult<YourModel>> GetMyModelsByPage(IPageQuery pageQuery)
     {
         TotalItems = totalItems,
         PageSize = pageQuery.PageSize,
-        Page = pageQuery.PageNr,
+        PageNr = pageQuery.PageNr,
         Result = result
     };
 }
@@ -55,7 +64,7 @@ public asyc Task<PagedResult<Person>> GetPersonsByNameAndPageResult(MySearchQuer
     {
         TotalItems = totalItems,
         PageSize = searchQuery.PageSize,
-        Page = searchQuery.PageNr,
+        PageNr = searchQuery.PageNr,
         Result = result
     };
 }
